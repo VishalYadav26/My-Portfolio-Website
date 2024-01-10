@@ -3,18 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
@@ -833,6 +821,24 @@ main {
 /**
  * skills 
  */
+ .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-item {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.content-card {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content card */
+}
+
 
 .skills-title { margin-bottom: 20px; }
 
